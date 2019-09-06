@@ -1,0 +1,35 @@
+body {
+    font-family: 'Gilroy';
+    background:white;
+    margin:0;
+    color:black;
+}
+footer {
+    background:#571212;
+}
+
+ul {
+    margin:0;padding:0;
+}
+ul li {
+    padding: 2em;
+    color:#ffffff;
+}
+ul li span {
+    display:block;
+    font-size:1.4em;
+    margin-bottom:1em;
+    color: white;
+}
+.container{
+	display:grid;
+	grid-template-columns: 25% auto;
+	padding: 4em 7em;
+}
+ul {
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
